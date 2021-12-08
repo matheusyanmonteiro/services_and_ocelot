@@ -4,8 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-
-namespace CarsCatolog.Controllers
+namespace CarsMark.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -14,11 +13,11 @@ namespace CarsCatolog.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "SUV", "Celta", "Sedan" };
+            return new string[] { "honda", "Volkswagen", "Skoda" };
         }
 
         [HttpGet("{id}")]
-        public ActionResult <string> Get(int id)
+        public ActionResult<string> Get(int id)
         {
             return "value";
         }

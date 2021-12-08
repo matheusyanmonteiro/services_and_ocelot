@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsCatolog", "CarsCatolog\CarsCatolog.csproj", "{B2DC07D3-BFB1-42CF-981B-B29F33AE9C26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarsCatolog", "CarsCatolog\CarsCatolog.csproj", "{B2DC07D3-BFB1-42CF-981B-B29F33AE9C26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsMark", "CarsMark\CarsMark.csproj", "{400E56BC-84CA-498F-BB87-A0753D79BBD8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B2DC07D3-BFB1-42CF-981B-B29F33AE9C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2DC07D3-BFB1-42CF-981B-B29F33AE9C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2DC07D3-BFB1-42CF-981B-B29F33AE9C26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{400E56BC-84CA-498F-BB87-A0753D79BBD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{400E56BC-84CA-498F-BB87-A0753D79BBD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{400E56BC-84CA-498F-BB87-A0753D79BBD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{400E56BC-84CA-498F-BB87-A0753D79BBD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
